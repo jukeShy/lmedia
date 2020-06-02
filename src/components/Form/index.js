@@ -4,7 +4,7 @@ import './style.scss';
 const Form = ({ title = 'Форма' }) => {
   return (
     <>
-      <form class='app-form form'>
+      <form className='app-form form'>
         <h1 className='form__title'>{title}</h1>
         <div className='form__body'>
           <div className='form__group'>
